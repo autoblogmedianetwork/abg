@@ -1,0 +1,28 @@
+# Rahasia - jangan pernah commit
+.env
+.env.*
+*.secret.json
+secrets/
+*token*
+*.key
+*.pem
+
+# Credential Threads API
+threads_token*
+*_user_id*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log sementara
+*.log
+tmp/
